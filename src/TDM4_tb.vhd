@@ -109,10 +109,10 @@ begin
 	begin
 		-- assign test values to data inputs
 		-- assign test values to data inputs
-        w_D3 <= "1100";
-        w_D2 <= "1001";
-        w_D1 <= "0110";
-        w_D0 <= "0011";	
+        w_D3 <= "1000";  -- Decimal 8
+        w_D2 <= "0100";  -- Decimal 4
+        w_D1 <= "0010";  -- Decimal 2
+        w_D0 <= "0001";  -- Decimal 1
 		-- reset the system first
 		w_reset <= '1';
 		wait for k_clk_period;		
